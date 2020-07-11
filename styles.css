@@ -14,7 +14,22 @@ body {
     height: 100px;
     width: 80%;
     background-color: #FFFFFF;
-    border-color: navy;
+}
+
+#overworld {
+    text-align: center;
+    margin: auto;
+    height: 100%;
+    width: 80%;
+    background-color: green;
+}
+
+#nether {
+    text-align: center;
+    margin: auto;
+    height: 100%;
+    width: 80%;
+    background-color: red;
 }
 
 #main > div {
