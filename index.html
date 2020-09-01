@@ -10,36 +10,46 @@
     <h1 id = "overworld">Overworld Coordinates</h1>
     <form name = "overToNeth">
         <div class="main">
-
-            <div>X</div>
-            <div>Y</div>
-            <div>Z</div>
+            <div id = "coordText">X</div>
+            <div id = "coordText">Y</div>
+            <div id = "coordText">Z</div>
             
             <!-- the o means Overworld -->
             <div><input type = "text" name = "oX" id = "oX" onkeyup = "ovToNe()"></div>
             <div><input type = "text" name = "oY" id = "oY" onkeyup = "ovToNe()"></div>
             <div><input type = "text" name = "oZ" id = "oZ" onkeyup = "ovToNe()"></div>
-            
-        
         </div>
     </form>
 
     <h1 id = "nether">Nether Coordinates</h1>  
     
     <form name = "nethToOver">
-        
         <div class="main">
-            <div>X</div>
-            <div>Y</div>
-            <div>Z</div>
+            <div id = "coordText">X</div>
+            <div id = "coordText">Y</div>
+            <div id = "coordText">Z</div>
 
             <!-- the n means Nether -->
             <div><input type = "text" name = "nX" id = "nX" onkeyup = "neToOv()"></div>
             <div><input type = "text" name = "nY" id = "nY" onkeyup = "neToOv()"></div>
-            <div><input type = "text" name = "nZ" id = "nZ" onkeyup = "neToOv()"></div>
-            
+            <div><input type = "text" name = "nZ" id = "nZ" onkeyup = "neToOv()"></div>    
         </div>
     </form>
+
+
+    <form name = "nethFinal">
+        <div class="main">
+            <div id = "coordText">X</div>
+            <div id = "coordText">Y</div>
+            <div id = "coordText">Z</div>
+
+            <!-- the n means Nether -->
+            <div><input type = "text" name = "nX" id = "nX" onkeyup = "neToOv()"></div>
+            <div><input type = "text" name = "nY" id = "nY" onkeyup = "neToOv()"></div>
+            <div><input type = "text" name = "nZ" id = "nZ" onkeyup = "neToOv()"></div>    
+        </div>
+    </form>
+    
 
     <script type="text/javascript" src="app.js"></script>
 </body>

@@ -4,7 +4,7 @@ body {
 	background-color: #cc453b;
 }
 
-#main {
+.main {
     display: grid;
     grid-template-columns: 3fr 3fr 3fr;
     grid-template-rows: 2fr 2fr;
@@ -16,12 +16,14 @@ body {
     background-color: #FFFFFF;
 }
 
+
 #overworld {
     text-align: center;
     margin: auto;
     height: 100%;
     width: 80%;
     background-color: green;
+    /* mask-image: linear-gradient(to bottom, 5% black, 95% transparent); */
 }
 
 #nether {
@@ -37,3 +39,12 @@ body {
     padding: 5px;
 }
 
+input {
+    width: 100%;
+    height: 100%;
+}
+
+.coordText {
+    font-size: larger;
+    font-weight: 100;
+}
